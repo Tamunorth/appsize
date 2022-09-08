@@ -1,3 +1,7 @@
+## [1.2.1] - 08.09.2022.
+
+* Fixed width and device width
+
 ## [1.2.0] - 18.08.2022.
 
 * If context not available now we use a layout builder

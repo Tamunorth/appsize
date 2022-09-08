@@ -1,6 +1,6 @@
 name: appsize
 description: A Flutter package for Easily make Flutter apps responsive. Automatically adapt UI to different screen sizes. Responsiveness made simple.
-version: 1.2.0
+version: 1.2.1
 homepage: https://github.com/NazarenoCavazzon/AppSize
 
 environment:

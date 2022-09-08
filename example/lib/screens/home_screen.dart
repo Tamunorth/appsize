@@ -47,30 +47,14 @@ class HomeScreenState extends State<HomeScreen> {
           ),
         ),
       ),
-      body: Padding(
-        padding: EdgeInsets.only(
-          top: MediaQuery.of(context).padding.top,
-        ),
-        child: Stack(
-          children: [
-            PageView(
-              controller: _pageController,
-              onPageChanged: (value) {
-                log('val:: $value');
-                setState(() {
-                  _pageIndex = value;
-                });
-              },
-              children: const [
-                FirstPageScreen(),
-                SecondPageScreen(),
-                ThirdPageScreen(),
-                FourthPageScreen(),
-              ],
-            ),
-            widDots(),
-          ],
-        ),
+      body: Column(
+        children: [
+          Container(
+            color: Colors.red,
+            width: 100.w,
+            height: 20.h,
+          ),
+        ],
       ),
     );
   }

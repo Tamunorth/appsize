@@ -45,17 +45,17 @@ class AppSizeUtil {
 
     // Sets device's height and width.
     if (orientation == Orientation.portrait) {
-      deviceWidth = size.width;
-      deviceHeight = size.height;
+      width = size.width;
+      height = size.height;
     } else {
-      deviceWidth = size.height;
-      deviceHeight = size.width;
+      width = size.height;
+      height = size.width;
     }
 
     // Because we take the width and height from the MediaQuery we don't need to
     // check the orientation.
-    width = size.width;
-    height = size.height;
+    deviceWidth = size.width;
+    deviceHeight = size.height;
 
     // Sets ScreenType.
     if (kIsWeb) {
